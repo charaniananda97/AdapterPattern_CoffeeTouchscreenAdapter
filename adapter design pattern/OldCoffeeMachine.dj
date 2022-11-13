@@ -1,0 +1,12 @@
+package Adapter_patern;
+
+public class OldCoffeeMachine{
+ public void selectA(){
+  //select A
+  System.out.println(“A - Selected”);
+ }
+ public void selectB(){
+  //select B
+  System.out.println(“B - Selected”);
+ }
+}

@@ -1,0 +1,6 @@
+package Adapter_patern;
+
+public interface CoffeeMatchineInterface{
+  public void chooseFirstSelection();
+  public void chooseSecondSelection();
+}

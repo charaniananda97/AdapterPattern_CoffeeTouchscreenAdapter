@@ -1,0 +1,19 @@
+package Adapter_patern;
+
+public class CoffeeTouchscreenAdapter implements CoffeeMatchineInterface{
+ private OldCoffeeMachine oldVendingMachine;
+
+ public CoffeeTouchscreenAdapter (OldCoffeeMachine newMachine){
+  oldVendingMachine = newMachine;
+ }
+
+ @Override
+ public void chooseFirstSelection() {
+  oldVendingMachine .selectA();
+     }
+
+     @Override
+     public void chooseSecondSelection() {
+          oldVendingMachine .selectB();
+     }
+}
